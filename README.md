@@ -46,7 +46,7 @@ The result was a signal that performed best at extremes and was deliberately des
 Caveats:
 LLMs are weak at precise quantitative aggregation, **for precise quantitative aggregation in a hedge fund setting, do not use LLMs at all for the core calculations.** Use deterministic numerical and data-processing tools that guarantee exact, reproducible, auditable results.
 
-Hedge-Fund Best Practices for Precision ---
+Hedge-Fund Best Practices for Precision:
 All aggregation logic must be deterministic and unit-tested.  
 Prefer vectorized operations over row-by-row loops.  
 Control floating-point precision explicitly (and document it).  
